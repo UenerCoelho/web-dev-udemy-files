@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formatando Links</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			body{
+				background: #1e6f44;
+			}
+			.conteudo1{
+				background: #61bd8c;
+				padding: 5px;
+				font-family: verdana;
+			}
+			/*Formatação dos estados do links
+				1. Estado inicial, link não clicado/visitado;
+				2. Estado Visitado, link clicado/visitado;
+				3. Estado Hover, ao passar o Cursor do mouse;
+				4. Estado de Link ativo, se o link funciona ou não*/
+			a:link{
+				color: green;
+			}
+			a:visited{
+				color: purple;
+			}
+			a:hover{
+				color: #FFF;
+				background: black;
+				padding: 2px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="conteudo1">
+			<b><a href="index.html">Home</a> | <a href="galeria_img.html">Galeria de Imagens</a> | Conteúdo 2</b><hr>
+			<h3 style="margin: 0px;">Links</h3>
+			<ol>
+				<li><a href="https://www.google.com.br">Google</a></li>
+				<li><a href="https://www.facebook.com">Facebook</a></li>
+				<li><a href="https://www.gearbest.com">Gearbest</a></li>
+				<li><a href="https://www.mercadolivre.com.br">Mercado Livre</a></li>
+			</ol>
+		</div>
+	</body>
+</html>

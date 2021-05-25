@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <!-- Associar Label com os Elementos por Boas Práticas -->
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Digite Seu Nome">
+        <br><br>
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email@email.com">
+        <br><br>
+        <!-- Número -->
+        <label for="number">Número Forma Digitação</label>
+        <input type="number" id="number"><br>
+        <label for="number">Número min-max</label>
+        <input type="number" id="number" min="5" max="100"><br>
+        <label for="number">Número min-max c/ step</label>
+        <input type="number" id="number" min="0" max="50" step="10"><br>
+        <br><br>
+        <!-- url -->
+        <label for="url">URL</label>
+        <input type="url" id="url" placeholder="http://www.exemplo.com.br">
+        <br><br>
+        <!-- Pesquisa -->
+        <label for="search">Pesquisa</label>
+        <input type="search" id="search" placeholder="pesquise algo">
+        <br><br>
+        <!-- Range -->
+        <label for="range">Range Normal</label>
+        <input type="range" id="range"><br>
+        <label for="range">Range min-max</label>
+        <input type="range" id="range" min="2.9" max="8.9"><br>
+        <label for="range">Range min-max+value</label>
+        <input type="range" id="range" min="1" max="10" value="1.7">
+        <br><br>
+        <!-- Date -->
+        <label for="date">Data</label>
+        <input type="date" id="date">
+        <br><br>
+        <!-- Color -->        
+        <label for="Color">Pesquisa</label>
+        <input type="color" id="color">
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

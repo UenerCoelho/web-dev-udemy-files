@@ -1,0 +1,11 @@
+#box-transitions{
+    width: 300px;
+    height: 300px;
+    background: tomato;
+}
+#box-transitions:hover{
+    width: 600px;
+    background: violet;
+    transition: all 2.5s;
+    border-radius: 5px 600px 600px 5px;
+}

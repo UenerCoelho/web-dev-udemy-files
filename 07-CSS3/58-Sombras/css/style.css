@@ -1,0 +1,17 @@
+#box{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 8px;
+    background: #009670;
+    /* para o box-shadows o 1 parametro movimenta horizontamente, o 2º parametro verticalmente, o 3º define o foco/desfoco e o quarto é o spread que define como a sombra se espalha. ### Nota: A sombra não faz parte do elemento, por isso não entra no box-sizing ### */
+    box-shadow: 10px 10px 10px 10px;
+}
+#box h1{
+    color: white;
+    font-size: 60px;
+    /* ### para posicionar a sombra, o primeiro parametro movimenta horizontalmente da sqrda para a direita sendo que valores negativos para sqrda e positivos para direita. Já o segundo parametro, movimenta a sombra verticalmente, negativo para cima e positivo para baixo. E o Terceiro parametro define o foco ou desfoco da sombra ### */
+    /* text-shadow: 4px 4px  10px black; */
+    /* ### sombra com transparencia #### */
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, .6);
+}

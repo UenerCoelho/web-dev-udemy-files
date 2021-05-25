@@ -1,0 +1,32 @@
+/* #box{
+    width: 300px;
+    height: 300px;
+    background: url("../img/camera.png");
+    /* padding: 5px; */
+/* } */
+/* #box h1{
+    background: rgba(255, 255, 255, 0.5);
+} */
+#box{
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: thistle;
+    text-align: justify;
+    /* Gradiente de Direita para squerda */
+    /* background: linear-gradient(to right, red, yellow); */
+    /* Gradiente de esquerda para direita */
+    /* background: linear-gradient(to left, red, yellow); */
+    /* Gradiente de De bauxi para cima */
+    /* background: linear-gradient(to top, red, yellow); */
+    /* Gradiente de de cima para baixo é o padrão*/
+    /* background: linear-gradient(red, yellow); */
+    /* Gradiente em forma de Raio, do partindo do centro */
+    /* background: radial-gradient(red, yellow); */
+    background: radial-gradient(blue, green, yellow, yellow);
+
+}
+/* #box h1{
+    background: rgba(255, 255, 255, 0.5);
+} */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamento</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			body{
+				background: #61bd8c;
+			}
+			#conteudo1{
+				background: #d6d6d6;
+				padding: 10px;
+				width: 450px;
+				margin: 10px 0px 0px 5px;
+
+			}
+			.box{
+				background: #1e6f44;
+				width: 180px; /*height: 200px;*/
+				border: 5px solid #1e6f44;
+				padding: 0px 0px 10px 0px;
+			}
+			#menu{
+				background: lightblue;
+				border: #1e6f44;
+				position: relative; width: 479px; left: -20px;
+				border: 2px solid #1e6f44;
+				padding: 5px;
+				font-family: verdana;
+			}
+			h4{
+				margin: 5px;
+			}
+			#relative{
+				position: relative;
+				left: -20px;
+				top: 0;
+				width: 480px;
+			}
+			#absolute{
+				position: absolute;
+			}
+			#relativeimg{
+				position: relative;
+				left: 150px;
+				
+
+			}
+			#fixed{
+				left: 250px;
+				position: fixed;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="conteudo1">
+			<div id="menu">
+				<b><a href="index.html">Home</a> | <a href="galeria_img.html">Galeria de Imagens</a> | Conteúdo 2</b>
+			</div>
+			<div>
+				<h1 style="margin: 0px">Posicionamento</h1>
+				<h4>Relative</h4>
+				<div id="relative" class="box">
+					<img id="relativeimg" src="img's/imagem (8).jpeg" width="180">
+					<p id="relativeimg">
+						Posicionamento: Relative
+					</p>
+				</div>
+				<h4>Absolute</h4>
+				<div id="absolute" class="box">
+					<img src="img's/imagem (8).jpeg" width="180">
+					<p>
+						Posicionamento: Absolute
+						<br/>Depois de feito o comando ele fica absoluto sobre tudo na pagina, por isso lembre do colocar onde não cubra nada.
+					</p>
+				</div>
+				<h4>Fixed</h4>
+				<div id="fixed" class="box">
+					<img src="img's/imagem (8).jpeg" width="180">
+					<p>
+						Posicionamento: Fixed
+						<br/> Depois de fixada, como o nome diz, não muda de lugar.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
